@@ -440,7 +440,7 @@
   "A set of common safe class-names to allow to be frozen using Java's
   `Serializable` interface. PRs welcome for additions.
   See also `*thaw-serializable-allowlist*`."
-  #{"[I" "[F" "[Z" "[B" "[C" "[D" "[S" "[J"
+  #{"[I" "[F" "[Z" "[B" "[C" "[D" "[S" "[J" "[Ljava.lang.String;"
 
     "java.lang.Throwable"
     "java.lang.Exception"
